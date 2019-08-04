@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205244722F6965400BE7EEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205244622F6965400BE7EEF /* AppDelegate.m */; };
+		0205244A22F6965400BE7EEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205244922F6965400BE7EEF /* ViewController.m */; };
+		0205244D22F6965400BE7EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0205244B22F6965400BE7EEF /* Main.storyboard */; };
+		0205244F22F6965600BE7EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0205244E22F6965600BE7EEF /* Assets.xcassets */; };
+		0205245222F6965600BE7EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0205245022F6965600BE7EEF /* LaunchScreen.storyboard */; };
+		0205245522F6965600BE7EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205245422F6965600BE7EEF /* main.m */; };
+		0205245F22F6965700BE7EEF /* FinplexiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205245E22F6965700BE7EEF /* FinplexiOSTests.m */; };
+		0205246A22F6965700BE7EEF /* FinplexiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205246922F6965700BE7EEF /* FinplexiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0205245B22F6965700BE7EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0205243A22F6965400BE7EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0205244122F6965400BE7EEF;
+			remoteInfo = FinplexiOS;
+		};
+		0205246622F6965700BE7EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0205243A22F6965400BE7EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0205244122F6965400BE7EEF;
+			remoteInfo = FinplexiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0205244222F6965400BE7EEF /* FinplexiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinplexiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0205244522F6965400BE7EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0205244622F6965400BE7EEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0205244822F6965400BE7EEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0205244922F6965400BE7EEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0205244C22F6965400BE7EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0205244E22F6965600BE7EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0205245122F6965600BE7EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0205245322F6965600BE7EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0205245422F6965600BE7EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0205245A22F6965700BE7EEF /* FinplexiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinplexiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0205245E22F6965700BE7EEF /* FinplexiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinplexiOSTests.m; sourceTree = "<group>"; };
+		0205246022F6965700BE7EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0205246522F6965700BE7EEF /* FinplexiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinplexiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0205246922F6965700BE7EEF /* FinplexiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinplexiOSUITests.m; sourceTree = "<group>"; };
+		0205246B22F6965700BE7EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0205243F22F6965400BE7EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205245722F6965700BE7EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205246222F6965700BE7EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0205243922F6965400BE7EEF = {
+			isa = PBXGroup;
+			children = (
+				0205244422F6965400BE7EEF /* FinplexiOS */,
+				0205245D22F6965700BE7EEF /* FinplexiOSTests */,
+				0205246822F6965700BE7EEF /* FinplexiOSUITests */,
+				0205244322F6965400BE7EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0205244322F6965400BE7EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0205244222F6965400BE7EEF /* FinplexiOS.app */,
+				0205245A22F6965700BE7EEF /* FinplexiOSTests.xctest */,
+				0205246522F6965700BE7EEF /* FinplexiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0205244422F6965400BE7EEF /* FinplexiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0205244522F6965400BE7EEF /* AppDelegate.h */,
+				0205244622F6965400BE7EEF /* AppDelegate.m */,
+				0205244822F6965400BE7EEF /* ViewController.h */,
+				0205244922F6965400BE7EEF /* ViewController.m */,
+				0205244B22F6965400BE7EEF /* Main.storyboard */,
+				0205244E22F6965600BE7EEF /* Assets.xcassets */,
+				0205245022F6965600BE7EEF /* LaunchScreen.storyboard */,
+				0205245322F6965600BE7EEF /* Info.plist */,
+				0205245422F6965600BE7EEF /* main.m */,
+			);
+			path = FinplexiOS;
+			sourceTree = "<group>";
+		};
+		0205245D22F6965700BE7EEF /* FinplexiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0205245E22F6965700BE7EEF /* FinplexiOSTests.m */,
+				0205246022F6965700BE7EEF /* Info.plist */,
+			);
+			path = FinplexiOSTests;
+			sourceTree = "<group>";
+		};
+		0205246822F6965700BE7EEF /* FinplexiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0205246922F6965700BE7EEF /* FinplexiOSUITests.m */,
+				0205246B22F6965700BE7EEF /* Info.plist */,
+			);
+			path = FinplexiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0205244122F6965400BE7EEF /* FinplexiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0205246E22F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOS" */;
+			buildPhases = (
+				0205243E22F6965400BE7EEF /* Sources */,
+				0205243F22F6965400BE7EEF /* Frameworks */,
+				0205244022F6965400BE7EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinplexiOS;
+			productName = FinplexiOS;
+			productReference = 0205244222F6965400BE7EEF /* FinplexiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0205245922F6965700BE7EEF /* FinplexiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0205247122F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOSTests" */;
+			buildPhases = (
+				0205245622F6965700BE7EEF /* Sources */,
+				0205245722F6965700BE7EEF /* Frameworks */,
+				0205245822F6965700BE7EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0205245C22F6965700BE7EEF /* PBXTargetDependency */,
+			);
+			name = FinplexiOSTests;
+			productName = FinplexiOSTests;
+			productReference = 0205245A22F6965700BE7EEF /* FinplexiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0205246422F6965700BE7EEF /* FinplexiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0205247422F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOSUITests" */;
+			buildPhases = (
+				0205246122F6965700BE7EEF /* Sources */,
+				0205246222F6965700BE7EEF /* Frameworks */,
+				0205246322F6965700BE7EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0205246722F6965700BE7EEF /* PBXTargetDependency */,
+			);
+			name = FinplexiOSUITests;
+			productName = FinplexiOSUITests;
+			productReference = 0205246522F6965700BE7EEF /* FinplexiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0205243A22F6965400BE7EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Fujitsu;
+				TargetAttributes = {
+					0205244122F6965400BE7EEF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0205245922F6965700BE7EEF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0205244122F6965400BE7EEF;
+					};
+					0205246422F6965700BE7EEF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0205244122F6965400BE7EEF;
+					};
+				};
+			};
+			buildConfigurationList = 0205243D22F6965400BE7EEF /* Build configuration list for PBXProject "FinplexiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0205243922F6965400BE7EEF;
+			productRefGroup = 0205244322F6965400BE7EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0205244122F6965400BE7EEF /* FinplexiOS */,
+				0205245922F6965700BE7EEF /* FinplexiOSTests */,
+				0205246422F6965700BE7EEF /* FinplexiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0205244022F6965400BE7EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205245222F6965600BE7EEF /* LaunchScreen.storyboard in Resources */,
+				0205244F22F6965600BE7EEF /* Assets.xcassets in Resources */,
+				0205244D22F6965400BE7EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205245822F6965700BE7EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205246322F6965700BE7EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0205243E22F6965400BE7EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205244A22F6965400BE7EEF /* ViewController.m in Sources */,
+				0205245522F6965600BE7EEF /* main.m in Sources */,
+				0205244722F6965400BE7EEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205245622F6965700BE7EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205245F22F6965700BE7EEF /* FinplexiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0205246122F6965700BE7EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205246A22F6965700BE7EEF /* FinplexiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0205245C22F6965700BE7EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0205244122F6965400BE7EEF /* FinplexiOS */;
+			targetProxy = 0205245B22F6965700BE7EEF /* PBXContainerItemProxy */;
+		};
+		0205246722F6965700BE7EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0205244122F6965400BE7EEF /* FinplexiOS */;
+			targetProxy = 0205246622F6965700BE7EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0205244B22F6965400BE7EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0205244C22F6965400BE7EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0205245022F6965600BE7EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0205245122F6965600BE7EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0205246C22F6965700BE7EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0205246D22F6965700BE7EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0205246F22F6965700BE7EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0205247022F6965700BE7EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0205247222F6965700BE7EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinplexiOS.app/FinplexiOS";
+			};
+			name = Debug;
+		};
+		0205247322F6965700BE7EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinplexiOS.app/FinplexiOS";
+			};
+			name = Release;
+		};
+		0205247522F6965700BE7EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinplexiOS;
+			};
+			name = Debug;
+		};
+		0205247622F6965700BE7EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinplexiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fujitsu.FinplexiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinplexiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0205243D22F6965400BE7EEF /* Build configuration list for PBXProject "FinplexiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0205246C22F6965700BE7EEF /* Debug */,
+				0205246D22F6965700BE7EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0205246E22F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0205246F22F6965700BE7EEF /* Debug */,
+				0205247022F6965700BE7EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0205247122F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0205247222F6965700BE7EEF /* Debug */,
+				0205247322F6965700BE7EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0205247422F6965700BE7EEF /* Build configuration list for PBXNativeTarget "FinplexiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0205247522F6965700BE7EEF /* Debug */,
+				0205247622F6965700BE7EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0205243A22F6965400BE7EEF /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module PMICropping {
+  umbrella header "PMICropping.h"
+
+  export *
+  module * { export * }
+}

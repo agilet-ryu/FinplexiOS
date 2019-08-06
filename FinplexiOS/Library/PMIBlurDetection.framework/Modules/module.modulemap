@@ -1,0 +1,6 @@
+framework module PMIBlurDetection {
+  umbrella header "PMIBlurDetection.h"
+
+  export *
+  module * { export * }
+}

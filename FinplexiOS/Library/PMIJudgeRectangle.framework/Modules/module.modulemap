@@ -1,0 +1,6 @@
+framework module PMIJudgeRectangle {
+  umbrella header "PMIJudgeRectangle.h"
+
+  export *
+  module * { export * }
+}

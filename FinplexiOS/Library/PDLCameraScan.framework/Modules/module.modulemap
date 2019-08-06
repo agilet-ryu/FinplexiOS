@@ -1,0 +1,6 @@
+framework module PDLCameraScan {
+    umbrella header "PDLCameraScanUmbrellaHeader.h"
+    
+    export *
+    module * { export * }
+}

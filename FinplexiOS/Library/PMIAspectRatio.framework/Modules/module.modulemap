@@ -1,0 +1,6 @@
+framework module PMIAspectRatio {
+  umbrella header "PMIAspectRatio.h"
+
+  export *
+  module * { export * }
+}

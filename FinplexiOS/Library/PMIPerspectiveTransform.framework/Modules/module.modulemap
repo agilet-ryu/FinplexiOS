@@ -1,0 +1,6 @@
+framework module PMIPerspectiveTransform {
+  umbrella header "PMIPerspectiveTransform.h"
+
+  export *
+  module * { export * }
+}

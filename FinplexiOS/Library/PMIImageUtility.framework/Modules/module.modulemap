@@ -1,0 +1,6 @@
+framework module PMIImageUtility {
+  umbrella header "PMIImageUtility.h"
+
+  export *
+  module * { export * }
+}
